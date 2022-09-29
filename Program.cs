@@ -1,6 +1,7 @@
 ﻿using System.Data.SqlClient;
 
-string stringaDiConnessione = "Data Source=localhost;Initial Catalog=db-videogames;Integrated Security=True";
+string stringaDiConnessione = "Data Source=localhost;" + 
+    "Initial Catalog=db-library;Integrated Security=True";
 
 SqlConnection connessioneSql = new SqlConnection(stringaDiConnessione);
 
